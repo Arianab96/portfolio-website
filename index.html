@@ -19,9 +19,25 @@
         </nav>
         <div class="header-text">
           <h1>Hi, I'm <span>Ariana</span></h1>
-          <p>Software Developer</p>
+          <div class="typewriter"></div>
         </div>
       </div>
     </div>
+    <script>
+      const div = document.querySelector('.typewriter');
+      const text = "Software Developer";
+
+      function textTypingEffect(element, text, i = 0) {
+        element.textContent += text[i];
+
+        if (i === text.length - 1) {
+          return;
+        }
+
+        setTimeout(() => textTypingEffect (element, text, i + 1), 50);
+      }
+
+      textTypingEffect(div, text);
+    </script>
   </body>
 </html>
