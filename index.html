@@ -31,6 +31,10 @@
         element.textContent += text[i];
 
         if (i === text.length - 1) {
+          setTimeout(() => {
+            element.textContent = '';
+            textTypingEffect(element, text);
+          }, 1000);
           return;
         }
 
