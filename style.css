@@ -336,3 +336,21 @@ form input, form textarea{
   cursor: pointer;
   background: black;
 }
+/* -------footer------- */
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.copyright i{
+  color: red;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px){
+  
+}
