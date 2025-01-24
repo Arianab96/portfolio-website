@@ -4,6 +4,9 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: #080808;
   color: white;
@@ -391,5 +394,36 @@ nav .fa-solid{
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+  #about h1{
+    font-size: 30px;
+  }
+  .sub-title{
+    font-size: 30px;
+  }
+  .about-col-1, .about-col-2{
+    flex-basis: 100%;
+  }
+  .about-col-1 {
+    margin-bottom: 20px;
+  }
+  .about-col-2 {
+    font-size: 14px;
+  }
+  .tech-card {
+    padding: 0.5rem;
+  }
+  .tech-card img {
+    width: 20px;
+    height: 20px;
+  }
+  .tech-card p{
+    font-size: 16px;
+  }
+  .contact-left, .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright {
+    font-size: 14px;
   }
 }
