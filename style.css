@@ -351,7 +351,7 @@ form input, form textarea{
 }
 
 /* css for small screen */
-nav .fas{
+nav .fa-solid{
   display: none;
 }
 
@@ -366,7 +366,7 @@ nav .fas{
   .header-text h1{
     font-size: 30px;
   }
-  nav .fas{
+  nav .fa-solid{
     display: block;
     color: white;
     font-size: 25px;
@@ -375,7 +375,7 @@ nav .fas{
     background: #262626;
     position: fixed;
     top: 0;
-    right: -200;
+    right: -200px;
     width: 200px;
     height: 100vh;
     padding: 50px;
